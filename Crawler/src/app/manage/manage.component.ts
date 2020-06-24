@@ -7,14 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ManageComponent implements OnInit {
 
-  isShow = false;
   constructor() { }
 
   ngOnInit() {
   }
-
-  toggleDisplay() {
-    this.isShow = !this.isShow;
-  }
-
 }

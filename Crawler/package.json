@@ -44,6 +44,7 @@
     "tslint": "~5.15.0",
     "typescript": "~3.8.3"
   }
+<<<<<<< HEAD
     "typescript": "~3.5.3"
   },
   "scripts": { 
@@ -61,4 +62,6 @@
 	"test": "ng test", 
 	"lint": "ng lint", 
 	"e2e": "ng e2e" 
+=======
+>>>>>>> a79eced9e704d93a22dc884b168538df906d8880
 }
