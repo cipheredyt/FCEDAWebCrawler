@@ -42,28 +42,6 @@
     "protractor": "^7.0.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
-<<<<<<< HEAD
     "typescript": "~3.8.3"
   }
-=======
-    "typescript": "~3.5.3"
-  },
-  "scripts": { 
-<<<<<<< HEAD
-    "ng": "ng", 
-    "start": "ng serve --proxy-config proxy.conf.json", 
-    "build": "ng build --prod", 
-    "test": "ng test", 
-    "lint": "ng lint", 
-    "e2e": "ng e2e" 
-  }
-=======
-	"ng": "ng", 
-	"start": "ng serve --proxy-config proxy.conf.json", 
-	"build": "ng build --prod", 
-	"test": "ng test", 
-	"lint": "ng lint", 
-	"e2e": "ng e2e" }
->>>>>>> c4491c2e3e448a23d13448b31e5dda92ef827f05
->>>>>>> ccef45050bff61988faa380ee53bd4d27a11a7f8
 }
