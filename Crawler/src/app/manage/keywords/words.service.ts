@@ -45,11 +45,7 @@ export class WordsService implements OnInit{
        }
 
     deleteKeyWord(word): Observable<void> {
-<<<<<<< HEAD
         const url = `http://3.19.26.214:5000/deleteKeyword/${word}`;
-=======
-        const url = `http://3.19.26.214:5000/deleteKeyword/${word}`;
->>>>>>> d0e3c0f1eb2d902b5566d933e49eb706d6755d61
         return this.httpClient.delete<void>(url);
     }
  
