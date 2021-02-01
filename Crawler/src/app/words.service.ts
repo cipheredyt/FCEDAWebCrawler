@@ -14,7 +14,7 @@ export class WordsService implements OnInit{
 
     }
 
-    wordsUrl: string = "http://3.19.26.214:5000/runCrawler";
+    wordsUrl: string = "http://0.0.0.0:5000/runCrawler";
 
     getWords(){
         return this.http.get<Words[]>(this.wordsUrl);

@@ -45,8 +45,8 @@ import { WordsService } from './words.service';
   </div>
   </div>
  
-`
-  
+ `
+
 })
 export class ListComponent implements OnInit {
 

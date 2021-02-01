@@ -16,8 +16,8 @@ export class WordsService implements OnInit{
 
     }
 
-    url: string = 'http://3.19.26.214:5000/websites';
-    url2: string = "http://3.19.26.214:5000/addWebsite";
+    url: string = 'http://0.0.0.0:5000/websites';
+    url2: string = "http://0.0.0.0:5000/addWebsite";
     
     getWebsites(){
         return this.httpClient.get(this.url);
@@ -37,7 +37,7 @@ export class WordsService implements OnInit{
     }
 
     deleteWebsite(website): Observable<void> {
-        const url = `http://3.19.26.214:5000/deleteWebsite/${website}`;
+        const url = `http://0.0.0.0:5000/deleteWebsite/${website}`;
         return this.httpClient.delete<void>(url);
     }
  
