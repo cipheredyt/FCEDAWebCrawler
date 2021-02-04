@@ -17,9 +17,9 @@ export class WordsService implements OnInit{
 
     }
 
-    url: string = "http://0.0.0.0:5000/keywords"
-    url2: string = "http://0.0.0.0:5000/addKeyword";
-    url3: string = "http://0.0.0.0:5000/deleteKeyword/";
+    url: string = "http://localhost:5000/keywords"
+    url2: string = "http://localhost:5000/addKeyword";
+    url3: string = "http://localhost:5000/deleteKeyword/";
     
     getWords(){
         return this.httpClient.get(this.url);
@@ -45,7 +45,7 @@ export class WordsService implements OnInit{
        }
 
     deleteKeyWord(word): Observable<void> {
-        const url = `http://0.0.0.0:5000/deleteKeyword/${word}`;
+        const url = `http://localhost:5000/deleteKeyword/${word}`;
         return this.httpClient.delete<void>(url);
     }
  
